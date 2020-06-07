@@ -63,5 +63,7 @@ class Trace:
 
 
 if __name__ == '__main__':
-    t = Trace(sys.argv[1])
+    print('Enter destination address')
+    address = input()
+    t = Trace(address)
     t.run()
